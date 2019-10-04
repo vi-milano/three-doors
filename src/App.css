@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  background-image: url('./three-doors.jpeg');
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
 .App-logo {
