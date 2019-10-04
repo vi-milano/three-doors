@@ -1,24 +1,35 @@
+.Doors {
+    background-image: url('./three-doors.jpeg');
+    background-repeat: no-repeat;
+    height: 651px;
+    background-position: center;
+    background-color: black;
+}
+
 .notScary {
-    position: absolute;
+    position: relative;
     width: 240px; 
     height: 520px;
-    left: 220px;
+    left: -70px;
     top: 80px;
+    display: inline-block;
     }
   
     
   .scary{
-      position: absolute;
+      position: relative;
       width: 240px; 
       height: 520px;
-      left: 530px;
+      left: 0px;
       top: 80px;
+      display: inline-block;
     }
   
   .veryScary {
-      position: absolute;
+    position: relative;
       width: 240px; 
       height: 520px;
-      left: 840px;
+      left: 75px;
       top: 80px;
+      display: inline-block;
   }

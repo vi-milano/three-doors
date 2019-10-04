@@ -1,11 +1,12 @@
 import React, { Component } from 'react'
 import { NavLink } from 'react-router-dom';
+import './Doors.css';
 
 export default class Doors extends Component {
     render() {
         return (
-            <div>
-                <nav>
+            <div className="Doors">
+                
                     <NavLink to='/freddy'>
                         <div className="notScary" ></div>
                     </NavLink>
@@ -15,7 +16,7 @@ export default class Doors extends Component {
                     <NavLink to='/cow'>
                         <div className="veryScary" ></div>
                     </NavLink>
-                </nav>;
+                
             </div>
         )
     }

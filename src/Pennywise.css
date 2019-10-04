@@ -1,0 +1,33 @@
+.Pennywise {
+    background-color: black;
+    background-image: url('./pennywise.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    height: 100%;    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.Pennywise-text{
+    margin-top: 15px;
+    color: rgb(207, 207, 2);
+    font-family: 'Lacquer', sans-serif;
+    font-size: 1.7em;
+}
+
+.Pennywise .goBack{
+    margin: 20px;
+}
+
+.Pennywise-text span:nth-of-type(1) {
+    color: white;
+    font-weight: bold;
+}
+.Pennywise-text span:nth-of-type(2) {
+    color: rgb(207, 2, 2);
+    font-style: italic;    
+}

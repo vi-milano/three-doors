@@ -32,7 +32,8 @@
     margin-top: 50px;
     color: red;
     font-family: 'Lacquer', sans-serif;
-    font-size: 29px;
+    font-size: 1.7em;
+    padding: 0 30px;
 }
 
 .Freddy-text span {

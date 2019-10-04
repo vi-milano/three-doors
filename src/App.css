@@ -1,35 +1,8 @@
 .App {
   text-align: center;
-  background-image: url('./three-doors.jpeg');
-    background-repeat: no-repeat;
-    height: 651px;
+  height: 651px;
 }
-.notScary {
-  position: absolute;
-  width: 240px; 
-  height: 520px;
-  left: 220px;
-  top: 80px;
-  }
 
-  .runAway {
-    display: inline;
-  }
-.scary{
-    position: absolute;
-    width: 240px; 
-    height: 520px;
-    left: 530px;
-    top: 80px;
-  }
-
-.veryScary {
-    position: absolute;
-    width: 240px; 
-    height: 520px;
-    left: 840px;
-    top: 80px;
-}
 .App-logo {
   height: 40vmin;
 }

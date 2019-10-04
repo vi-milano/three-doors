@@ -11,20 +11,7 @@ export default class App extends Component {
       
 
     render() {
-
-        let doorNav = <nav>
         
-        <NavLink to='/freddy'>
-        <div className="notScary" ></div>
-        </NavLink>
-        <NavLink to='/pennywise'>
-        <div className="scary" ></div>
-        </NavLink>
-        <NavLink to='/cow'>
-        <div className="veryScary" ></div>
-        </NavLink>
-        </nav>;       
-
           return (
             <div className="App"> 
              
