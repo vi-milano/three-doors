@@ -1,0 +1,44 @@
+.Freddy {
+    background-color: black;
+    background-image: url('./freddy.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    height: 100%;    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.goBack{
+    
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-bottom: 50px;
+    background-color: rgb(190, 0, 0);
+    color: white;
+    filter: drop-shadow(3px 3px 4px rgb(160, 0, 0));
+    font-family: monospace;
+}
+
+.goBack:hover{
+    background-color: rgb(255, 0, 0);
+}
+
+.Freddy-text{
+    margin-top: 50px;
+    color: red;
+    font-family: 'Lacquer', sans-serif;
+    font-size: 29px;
+}
+
+.Freddy-text span {
+    color: grey;
+}
+
+.Freddy-text span:hover{
+    color:white;
+}

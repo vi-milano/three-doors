@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 
-export default class Cat extends Component {
+export default class Pennywise extends Component {
     render() {
         return (
             <div>
-             {alert('Meow!')}
+                {alert('Woof!')}
             </div>
         )
     }
