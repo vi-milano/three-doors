@@ -13,7 +13,7 @@ export default class Doors extends Component {
                     <NavLink to='/pennywise'>
                         <div className="scary" ></div>
                     </NavLink>
-                    <NavLink to='/cow'>
+                    <NavLink to='/spooky'>
                         <div className="veryScary" ></div>
                     </NavLink>
                 

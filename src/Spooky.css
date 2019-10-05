@@ -1,0 +1,20 @@
+.Spooky {
+    background-color: black;
+    background-image: url('./spooky.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    height: 100%;    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.Spooky-text {
+    margin-top: 15px;
+    color: rgb(190, 190, 190);
+    font-family: 'Lacquer', sans-serif;
+    font-size: 1.7em;
+}
